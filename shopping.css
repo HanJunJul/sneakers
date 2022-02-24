@@ -1,0 +1,54 @@
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .collection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 50px 0;
+  }
+  
+  .collection-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%;
+  }
+  
+  .collection-title {
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
+  .collection-desp {
+    font-size: 16px;
+  }
+  .notice {
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+  }
+  
+  .notice-title {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  
+  .notice-title span {
+    font-weight: 700;
+  }
+  
+  
+  .page-dark {
+    background-color: black;
+  }
+  
+  .page-light {
+    background-color: #EFEEEF;
+  }

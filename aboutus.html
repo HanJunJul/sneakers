@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aboutus.css">
+
+</head>
+<body>
+    
+    <div class="about-section">
+        <h1>About Us Page</h1>
+        <p>All information about our company.</p>
+        
+      </div>
+      
+      <h2 style="text-align:center">Who is the creator?</h2>
+      
+   
+        <div class="column">
+            <img src="img/photo_2022-02-02 23.23.22.jpeg" alt="Jane" style="width:100%">
+            <div class="container">
+              <h2>Alihan Nurkerimov</h2>
+              <p class="title">WEB developer</p>
+              <p>AITU student</p>
+              <p></p>
+            </div>
+          
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script> 
+            $(document).ready(function(){
+              $("#flip").click(function(){
+                $("#panel").slideDown("slow");
+              });
+            });
+            </script>
+            <style> 
+            #panel, #flip {
+              padding: 20px;
+              text-align: center;
+              background-color: rgb(0, 0, 0);
+              border: solid 1px #ffffff;
+              color: #ffffff;
+            }
+            
+            #panel {
+              padding: 40px;
+              display: none;
+            }
+            </style>
+            
+            <div id="flip">More information about me</div>
+            <div id="panel">I am 18 years old.  I am a student of Astana IT, I study cyber security, I was engaged in wrestling, basketball, boxing.  I'm fond of music
+              
+            </div>   
+    
+  
+</body>
+</html>
